@@ -18,6 +18,12 @@ public class T4Application {
 
 		return "Amdocs welcomes you";
 	}
+
+	@GetMapping("/msg2")
+	public String getMsg2(){
+
+		return "Amdocs welcomes you again";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(T4Application.class, args);
 	}
